@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Office Supplies Low Poly/Assets/Sample scene/Office Supplies Low Poly
+    Sample Scene.unity
+  isLoaded: 1
+  isActive: 1
