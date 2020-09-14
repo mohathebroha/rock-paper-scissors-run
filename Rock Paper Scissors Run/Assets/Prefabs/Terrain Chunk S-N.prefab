@@ -1345,6 +1345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8893849408577581658}
+  - component: {fileID: 1943574564409113634}
   m_Layer: 0
   m_Name: Terrain Chunk S-N
   m_TagString: Untagged
@@ -1390,6 +1391,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1943574564409113634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8893849408577581659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6588e8c4652681498694c6a8e5f403a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacleSpaceRadius: 2
+  maxSpawnAttemptsPerObstacle: 20
+  maxEnemies: 8
+  enemyRock: {fileID: 2627063677580835858, guid: ab6ee78730862f94db8f90965558d9b0,
+    type: 3}
+  enemyScissors: {fileID: 1625552723821891144, guid: 0107fc857b0a92647a1f63e4e276e815,
+    type: 3}
+  enemyPaper: {fileID: 7318588748687802130, guid: bff070bc57dad0b439e88f86ae40d5e9,
+    type: 3}
 --- !u!1 &8893849408611498841
 GameObject:
   m_ObjectHideFlags: 0
