@@ -10,4 +10,4 @@ The gameplay will involve conventional endless-runner mechanics - running, side-
 The control scheme for movment will be the standard WASD keys and Spacebar. A simple HUD will show player score and time until player character rotation.  
 
 ## Art Style
-The level and character art style will be low poly or primitive based for rapid development. 
+The level and character art style will be low poly or primitive-based for rapid development. 
